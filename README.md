@@ -1,2 +1,2 @@
 # D0017D
-My C# school repo
+My java school repo
