@@ -1,2 +1,2 @@
 # D0017D
-Java
+My C# school repo
