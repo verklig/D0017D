@@ -1,2 +1,2 @@
 # D0017D
-My java school repo
+My Java school repo
