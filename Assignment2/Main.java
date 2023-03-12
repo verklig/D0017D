@@ -1,16 +1,15 @@
+import java.util.Scanner; // Importing the Scanner class
 /**
 * The program takes input from the user to calculate the amount of sun hours during a day, and also calculate the amount of 
-* electricity produced + the value of the electricity produced and printing it to the console
+* electricity produced and the value of the electricity produced and printing it to the console.
 *
-* 1. Create a constants and variables
-* 2. Get user inputs, loop if value is not correct
-* 3. Calculate user inputs
-* 4. Print out date, production and value to the console
+* 1. Create constants and variables.
+* 2. Get user inputs, loop if value is not correct.
+* 3. Calculate user inputs.
+* 4. Print out date, production and value to the console.
 *
 * @author Eric Blohm, boleri2
 */
-import java.util.Scanner; // Importing the Scanner class
-
 class Main 
 {
   public static void main(String[] args) 
@@ -34,7 +33,7 @@ class Main
     final double EFFICIENCY = 0.2;
     final double ELECTRIC_PRICE = 0.9;
     final double PANEL_AREA = PANEL_WIDTH * PANEL_HEIGHT;
-
+    
     double hours = 0; // Hours set by the user
     double minutes = 0; // Minutes set by the user
     int month = 0; // Month set by the user
